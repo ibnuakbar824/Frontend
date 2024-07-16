@@ -7,6 +7,8 @@ import UpdateState from "./componen/UpdateState";
 import Animasi from "./componen/Animasi";
 import FetchApi from "./componen/FetchApi";
 import ReactContext from "./Pages/ReactContext";
+import GetMaba from "./componen/Admind/GetMaba";
+import CreateMaba from "./componen/Admind/CreateMaba";
 
 
 
@@ -21,6 +23,9 @@ function App() {
       <Route path="/Animasi" element={<Animasi/>}/>
       <Route path="/FetchApi" element={<FetchApi/>}/>
       <Route path="/ReactContext" element={<ReactContext/>}/>
+      <Route path="/GetMaba" element={<GetMaba/>}/>
+      <Route path="/CreateMaba" element={<CreateMaba/>}/>
+
     </Routes>
    );
 }
